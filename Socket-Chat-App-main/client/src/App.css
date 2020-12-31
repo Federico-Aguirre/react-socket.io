@@ -1,0 +1,140 @@
+:root{
+  --white: #fff;
+  --sky-blue: #0091ff;
+  --green:#5ff064;
+  --black: #131c21;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.App {
+  display: grid;
+  width: 100vw;
+  height: 100vh;
+  font: clamp(1rem, 1.5vw, 2rem) / 1.5rem Helvetica serif ;
+  line-height: 1;
+  letter-spacing: 0.1vw;
+  box-sizing: border-box;
+  grid-template: 2% repeat(8, 1fr) 2%
+               / 2% repeat(8, 1fr) 2%;
+}
+
+.logIn {
+  display: grid;
+  grid-area: 4/4/8/8;
+  border: 5px solid var(--sky-blue);
+  border-radius: 10px;
+  place-items: center;
+}
+
+.input_container {
+  display: grid;
+  row-gap: 0;
+  column-gap: 3%;
+  margin: 10%;
+  grid-template: 1fr 0.5fr 2fr 1fr 2fr
+                /1fr 1fr;
+}
+
+.logIn label{
+  grid-row: 2;
+}
+
+.logIn input{
+  grid-row: 3;
+  border: 1px solid var(--sky-blue);
+}
+
+#login_button {
+  grid-area: 4/1/4/3;
+  justify-items: center;
+  margin: 7%;
+}
+
+#login_button:hover{
+  cursor: pointer;
+}
+
+.chatContainer {
+  display: grid;
+  grid-area: 1/1/7/7;
+  border: 5px solid var(--sky-blue);
+  border-radius: 10px;
+}
+
+.chatContainer .messages {
+  display: grid;
+  grid-area: 1/1/7/7;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.chatContainer .messageInputs {
+  display: grid;
+  grid-area: 7/1/7/7;
+}
+
+.chatContainer .messageInputs input{
+  display: grid;
+  grid-area: 7/1/7/7;
+  border: none;
+  border-top: 5px solid var(--sky-blue);
+  padding-left: 20px;
+  font-size: 20px;
+}
+
+.chatContainer .messageInputs button{
+  display: grid;
+  grid-area: 7/7/7/7;
+  background-color: var(--sky-blue);
+  border: none;
+  color: var(--white);
+  font-size: 18px;
+  margin-bottom: -0.5%;
+  place-items: center;
+}
+
+.messageContainer {
+  display: grid;
+  width: calc(100% - 30px);
+}
+
+.messageContainer h1{
+  color: var(--white);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 17px;
+}
+
+#You{
+  justify-items: start;
+  margin-left: 5%;
+}
+
+#Other {
+  justify-items: end;
+}
+
+#Other .messageIndividual {
+  display: grid;
+  grid-area: 7/1/7/7;
+  background-color: var(--green);
+  color: var(--black);
+}
+
+.messageIndividual {
+  display: grid;
+  grid-area: 7/1/7/7;
+  width: 200px;
+  height: 60px;
+  border-radius: 10px;
+  place-items: center;
+  background-color: var(--sky-blue);
+  opacity: 0.9;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 20px;
+}

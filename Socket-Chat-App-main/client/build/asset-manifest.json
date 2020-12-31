@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Federico-Aguirre/react-socket.io/static/css/main.fff19945.chunk.css",
+    "main.js": "/Federico-Aguirre/react-socket.io/static/js/main.8308b4fa.chunk.js",
+    "main.js.map": "/Federico-Aguirre/react-socket.io/static/js/main.8308b4fa.chunk.js.map",
+    "runtime-main.js": "/Federico-Aguirre/react-socket.io/static/js/runtime-main.b9cec57b.js",
+    "runtime-main.js.map": "/Federico-Aguirre/react-socket.io/static/js/runtime-main.b9cec57b.js.map",
+    "static/js/2.b5b365f7.chunk.js": "/Federico-Aguirre/react-socket.io/static/js/2.b5b365f7.chunk.js",
+    "static/js/2.b5b365f7.chunk.js.map": "/Federico-Aguirre/react-socket.io/static/js/2.b5b365f7.chunk.js.map",
+    "index.html": "/Federico-Aguirre/react-socket.io/index.html",
+    "precache-manifest.525dcb072ba10f93a173bec370d4e102.js": "/Federico-Aguirre/react-socket.io/precache-manifest.525dcb072ba10f93a173bec370d4e102.js",
+    "service-worker.js": "/Federico-Aguirre/react-socket.io/service-worker.js",
+    "static/css/main.fff19945.chunk.css.map": "/Federico-Aguirre/react-socket.io/static/css/main.fff19945.chunk.css.map",
+    "static/js/2.b5b365f7.chunk.js.LICENSE.txt": "/Federico-Aguirre/react-socket.io/static/js/2.b5b365f7.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b9cec57b.js",
+    "static/js/2.b5b365f7.chunk.js",
+    "static/css/main.fff19945.chunk.css",
+    "static/js/main.8308b4fa.chunk.js"
+  ]
+}
